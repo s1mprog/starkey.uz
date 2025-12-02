@@ -13,10 +13,12 @@ const count = ref(0)
   <h1 class='mb-10'>{{ msg }}</h1>  
 
   <button type="button" @click="count++">count is {{ count }}</button>
+
+  
 </template>
 
 <style scoped>
 .read-the-docs {
-  color: #888;
+  color: #5d5d5d;
 }
 </style>
